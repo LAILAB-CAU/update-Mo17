@@ -1,0 +1,39 @@
+#!/bin/bash
+set -e
+set -u 
+awk '{if($2 >= 50000)print $6"\t"$8"\t"$9"\t"$1}' 20191219-UNL085-P5-PAE34153.paf >> alignment.bed 
+awk '{if($2 >= 50000)print $6"\t"$8"\t"$9"\t"$1}' 20191230-UNL085-P1-PAE32963.paf >> alignment.bed 
+awk '{if($2 >= 50000)print $6"\t"$8"\t"$9"\t"$1}' 20191231-UNL085-P1-PAE32963.paf >> alignment.bed 
+awk '{if($2 >= 50000)print $6"\t"$8"\t"$9"\t"$1}' 20200117-UNL085-P5-PAE39466.paf >> alignment.bed 
+awk '{if($2 >= 50000)print $6"\t"$8"\t"$9"\t"$1}' 20200118-UNL085-P5-PAE39466.paf >> alignment.bed 
+awk '{if($2 >= 50000)print $6"\t"$8"\t"$9"\t"$1}' 20200312-UNL085-P1-PAE30600.paf >> alignment.bed 
+awk '{if($2 >= 50000)print $6"\t"$8"\t"$9"\t"$1}' 20200313-UNL085-P1-PAE30600.paf >> alignment.bed 
+awk '{if($2 >= 50000)print $6"\t"$8"\t"$9"\t"$1}' 20200328-UNL085-P1-PAE78052.paf >> alignment.bed 
+awk '{if($2 >= 50000)print $6"\t"$8"\t"$9"\t"$1}' 20200329-UNL085-P1-PAE78052.paf >> alignment.bed 
+awk '{if($2 >= 50000)print $6"\t"$8"\t"$9"\t"$1}' 20200330-UNL085-P1-PAE72324.paf >> alignment.bed 
+awk '{if($2 >= 50000)print $6"\t"$8"\t"$9"\t"$1}' 20200330-UNL085-P1-PAE73001.paf >> alignment.bed 
+awk '{if($2 >= 50000)print $6"\t"$8"\t"$9"\t"$1}' 20200330-UNL085-P1-PAE74959.paf >> alignment.bed 
+awk '{if($2 >= 50000)print $6"\t"$8"\t"$9"\t"$1}' 20200331-UNL085-P1-PAE73476.paf >> alignment.bed 
+awk '{if($2 >= 50000)print $6"\t"$8"\t"$9"\t"$1}' 20200331-UNL085-P1-PAE76301.paf >> alignment.bed 
+awk '{if($2 >= 50000)print $6"\t"$8"\t"$9"\t"$1}' 20200331-UNL085-P1-PAE76304.paf >> alignment.bed 
+awk '{if($2 >= 50000)print $6"\t"$8"\t"$9"\t"$1}' 20200331-UNL085-P1-PAE77443.paf >> alignment.bed 
+awk '{if($2 >= 50000)print $6"\t"$8"\t"$9"\t"$1}' 20200402-UNL085-P1-PAE66442.paf >> alignment.bed 
+awk '{if($2 >= 50000)print $6"\t"$8"\t"$9"\t"$1}' 20200403-UNL085-P1-PAE59748.paf >> alignment.bed 
+awk '{if($2 >= 50000)print $6"\t"$8"\t"$9"\t"$1}' 20200403-UNL085-P1-PAE63133.paf >> alignment.bed 
+awk '{if($2 >= 50000)print $6"\t"$8"\t"$9"\t"$1}' 20200403-UNL085-P1-PAE65508.paf >> alignment.bed 
+awk '{if($2 >= 50000)print $6"\t"$8"\t"$9"\t"$1}' 20200404-UNL085-P1-PAE58899.paf >> alignment.bed 
+awk '{if($2 >= 50000)print $6"\t"$8"\t"$9"\t"$1}' 20200404-UNL085-P1-PAE59636.paf >> alignment.bed 
+awk '{if($2 >= 50000)print $6"\t"$8"\t"$9"\t"$1}' 20200404-UNL085-P1-PAE62586.paf >> alignment.bed 
+awk '{if($2 >= 50000)print $6"\t"$8"\t"$9"\t"$1}' 20200404-UNL085-P1-PAE63133.paf >> alignment.bed 
+awk '{if($2 >= 50000)print $6"\t"$8"\t"$9"\t"$1}' 20200404-UNL085-P1-PAE64841.paf >> alignment.bed 
+awk '{if($2 >= 50000)print $6"\t"$8"\t"$9"\t"$1}' 20200405-UNL085-P1-PAE55943.paf >> alignment.bed 
+awk '{if($2 >= 50000)print $6"\t"$8"\t"$9"\t"$1}' 20200405-UNL085-P1-PAE58455.paf >> alignment.bed 
+awk '{if($2 >= 50000)print $6"\t"$8"\t"$9"\t"$1}' 20200405-UNL085-P1-PAE59610.paf >> alignment.bed 
+awk '{if($2 >= 50000)print $6"\t"$8"\t"$9"\t"$1}' 20200405-UNL085-P1-PAE64851.paf >> alignment.bed 
+awk '{if($2 >= 50000)print $6"\t"$8"\t"$9"\t"$1}' 20200405-UNL085-P1-PAE69208.paf >> alignment.bed 
+awk '{if($2 >= 50000)print $6"\t"$8"\t"$9"\t"$1}' 20200405-UNL085-P1-PAE69448.paf >> alignment.bed 
+awk '{if($2 >= 50000)print $6"\t"$8"\t"$9"\t"$1}' 20200406-UNL085-P1-PAE69448.paf >> alignment.bed 
+awk '{if($2 >= 50000)print $6"\t"$8"\t"$9"\t"$1}' 20200406-UNL085-P5-PAE70217.paf >> alignment.bed 
+awk '{if($2 >= 50000)print $6"\t"$8"\t"$9"\t"$1}' 20200407-UNL085-P5-PAE66590.paf >> alignment.bed 
+awk '{if($2 >= 50000)print $6"\t"$8"\t"$9"\t"$1}' 20200408-UNL085-P5-PAE69418.paf >> alignment.bed 
+awk '{if($2 >= 50000)print $6"\t"$8"\t"$9"\t"$1}' 20200409-UNL085-P5-PAE46763.paf >> alignment.bed 
