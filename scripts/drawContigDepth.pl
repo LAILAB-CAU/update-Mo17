@@ -60,8 +60,8 @@ foreach my $key(sort  keys %hash_scaffolds){
     my $regionEnd = (split /\s+/, $key)[2];
     my $seqName = (split /\s+/, $key)[0];
 
-    my $countInPicture = $count % 200;
-    my $thePictureSeq = int($count/200);
+    my $countInPicture = $count % 20;
+    my $thePictureSeq = int($count/20);
     $theEndSeq = $thePictureSeq + 1;
     if($countInPicture == 0){
         if($thePictureSeq >= 1){
@@ -133,6 +133,9 @@ foreach my $key(sort  keys %hash_scaffolds){
         }
     }
 
+	$svg->line(x1=>50,x2=>50+$length/$scale,y1=>$y_loc-12-50/10,y2=>$y_loc-12-50/10,stroke=>'red',"stroke-width"=>2);
+	$svg->line(x1=>50,x2=>50+$length/$scale,y1=>$y_loc-12-100/10,y2=>$y_loc-12-100/10,stroke=>'red',"stroke-width"=>2);
+	$svg->line(x1=>50,x2=>50+$length/$scale,y1=>$y_loc-12-200/10,y2=>$y_loc-12-200/10,stroke=>'red',"stroke-width"=>2);
 
     $count += 1;
 }

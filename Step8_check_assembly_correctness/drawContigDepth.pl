@@ -23,8 +23,8 @@ open NEW,"$depth" or die;
 while(<NEW>){
 	chomp;
 	my @array = split /\s+/;
-    if($array[3] >=400){
-        $hashDepth{$array[0]}{"$array[1]\t$array[2]"} = 400;
+    if($array[3] >=300){
+        $hashDepth{$array[0]}{"$array[1]\t$array[2]"} = 300;
     }
     else{
         $hashDepth{$array[0]}{"$array[1]\t$array[2]"} = $array[3];
@@ -70,8 +70,9 @@ foreach my $key(sort  keys %hash_scaffolds){
             open SVGFILE,">$output" or die;
             print SVGFILE $out;
             close SVGFILE;
+            system("source /public1/soft/modules/module.sh && module load singularity/singularity-2.6.0-yangzq && singularity exec /public1/home/sc30797/wangzijian/software/img/inkscape.img inkscape --file $output --export-pdf $pseudomolecule-$thePictureSeq.pdf");
         }
-        $svg = SVG->new(width=>2000, height=>60*20 + 100);
+        $svg = SVG->new(width=>2000, height=>100*20 + 100);
     }
     my $step_len;
     # $scale决定比例尺 my $scale = 200;说明200bp为一个像素
@@ -140,7 +141,7 @@ my $output = "$pseudomolecule-$theEndSeq.svg";
 open SVGFILE,">$output" or die;
 print SVGFILE $out;
 close SVGFILE;
-
+system("source /public1/soft/modules/module.sh && module load singularity/singularity-2.6.0-yangzq && singularity exec /public1/home/sc30797/wangzijian/software/img/inkscape.img inkscape --file $output --export-pdf $pseudomolecule-$theEndSeq.pdf");
 
 sub usage{
 	my $die =<<DIE;
