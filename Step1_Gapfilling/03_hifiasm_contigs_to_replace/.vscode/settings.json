@@ -1,0 +1,6 @@
+{
+    "editor.renderControlCharacters": true,
+    "editor.renderWhitespace": "all",
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": false
+}
