@@ -1,0 +1,49 @@
+source activate wzjMap
+ontAsmChangedName=/public1/home/sc30797/wangzijian/update_Mo17/00_assembly/ONT_original/Mo17_ont_origin_asm.fa
+ontRead=/public1/home/sc30797/xie/mo17/results/haslr_assembly_pacbio/hifi_reads/hifi_fastq/batch1_1.fastq.gz
+prefix=${ontRead##*/}
+perlScript=/public1/home/sc30797/wangzijian/scripts/map/get_the_detailed_mapping_information_from_bwa_bam_file.pl
+minimap2 -t64 -ax map-pb -N50 -r1000 ${ontAsmChangedName} ${ontRead} | samtools view -bS  - > ${prefix}.bam
+perl ${perlScript} ${prefix}.bam 0 > ${prefix}.bam.infor
+source activate wzjMap
+ontAsmChangedName=/public1/home/sc30797/wangzijian/update_Mo17/00_assembly/ONT_original/Mo17_ont_origin_asm.fa
+ontRead=/public1/home/sc30797/xie/mo17/results/haslr_assembly_pacbio/hifi_reads/hifi_fastq/batch2_1.fastq.gz
+prefix=${ontRead##*/}
+perlScript=/public1/home/sc30797/wangzijian/scripts/map/get_the_detailed_mapping_information_from_bwa_bam_file.pl
+minimap2 -t64 -ax map-pb -N50 -r1000 ${ontAsmChangedName} ${ontRead} | samtools view -bS  - > ${prefix}.bam
+perl ${perlScript} ${prefix}.bam 0 > ${prefix}.bam.infor
+source activate wzjMap
+ontAsmChangedName=/public1/home/sc30797/wangzijian/update_Mo17/00_assembly/ONT_original/Mo17_ont_origin_asm.fa
+ontRead=/public1/home/sc30797/xie/mo17/results/haslr_assembly_pacbio/hifi_reads/hifi_fastq/batch2_2.fastq.gz
+prefix=${ontRead##*/}
+perlScript=/public1/home/sc30797/wangzijian/scripts/map/get_the_detailed_mapping_information_from_bwa_bam_file.pl
+minimap2 -t64 -ax map-pb -N50 -r1000 ${ontAsmChangedName} ${ontRead} | samtools view -bS  - > ${prefix}.bam
+perl ${perlScript} ${prefix}.bam 0 > ${prefix}.bam.infor
+source activate wzjMap
+ontAsmChangedName=/public1/home/sc30797/wangzijian/update_Mo17/00_assembly/ONT_original/Mo17_ont_origin_asm.fa
+ontRead=/public1/home/sc30797/xie/mo17/results/haslr_assembly_pacbio/hifi_reads/hifi_fastq/batch3_1.fastq.gz
+prefix=${ontRead##*/}
+perlScript=/public1/home/sc30797/wangzijian/scripts/map/get_the_detailed_mapping_information_from_bwa_bam_file.pl
+minimap2 -t64 -ax map-pb -N50 -r1000 ${ontAsmChangedName} ${ontRead} | samtools view -bS  - > ${prefix}.bam
+perl ${perlScript} ${prefix}.bam 0 > ${prefix}.bam.infor
+source activate wzjMap
+ontAsmChangedName=/public1/home/sc30797/wangzijian/update_Mo17/00_assembly/ONT_original/Mo17_ont_origin_asm.fa
+ontRead=/public1/home/sc30797/xie/mo17/results/haslr_assembly_pacbio/hifi_reads/hifi_fastq/batch3_2.fastq.gz
+prefix=${ontRead##*/}
+perlScript=/public1/home/sc30797/wangzijian/scripts/map/get_the_detailed_mapping_information_from_bwa_bam_file.pl
+minimap2 -t64 -ax map-pb -N50 -r1000 ${ontAsmChangedName} ${ontRead} | samtools view -bS  - > ${prefix}.bam
+perl ${perlScript} ${prefix}.bam 0 > ${prefix}.bam.infor
+source activate wzjMap
+ontAsmChangedName=/public1/home/sc30797/wangzijian/update_Mo17/00_assembly/ONT_original/Mo17_ont_origin_asm.fa
+ontRead=/public1/home/sc30797/xie/mo17/results/haslr_assembly_pacbio/hifi_reads/hifi_fastq/batch3_3.fastq.gz
+prefix=${ontRead##*/}
+perlScript=/public1/home/sc30797/wangzijian/scripts/map/get_the_detailed_mapping_information_from_bwa_bam_file.pl
+minimap2 -t64 -ax map-pb -N50 -r1000 ${ontAsmChangedName} ${ontRead} | samtools view -bS  - > ${prefix}.bam
+perl ${perlScript} ${prefix}.bam 0 > ${prefix}.bam.infor
+source activate wzjMap
+ontAsmChangedName=/public1/home/sc30797/wangzijian/update_Mo17/00_assembly/ONT_original/Mo17_ont_origin_asm.fa
+ontRead=/public1/home/sc30797/xie/mo17/results/haslr_assembly_pacbio/hifi_reads/hifi_fastq/batch3_4.fastq.gz
+prefix=${ontRead##*/}
+perlScript=/public1/home/sc30797/wangzijian/scripts/map/get_the_detailed_mapping_information_from_bwa_bam_file.pl
+minimap2 -t64 -ax map-pb -N50 -r1000 ${ontAsmChangedName} ${ontRead} | samtools view -bS  - > ${prefix}.bam
+perl ${perlScript} ${prefix}.bam 0 > ${prefix}.bam.infor

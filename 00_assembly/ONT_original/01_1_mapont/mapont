@@ -1,0 +1,252 @@
+source activate wzjMap
+ontAsmChangedName=/public1/home/sc30797/wangzijian/update_Mo17/00_assembly/ONT_original/Mo17_ont_origin_asm.fa
+ontRead=/public1/home/sc30797/wangzijian/update_Mo17/nanopore_reads/nanopore_raw_read/20191219-UNL085-P5-PAE34153.fa
+prefix=${ontRead##*/}
+perlScript=/public1/home/sc30797/wangzijian/scripts/map/get_the_detailed_mapping_information_from_bwa_bam_file.pl
+minimap2 -t64 -ax map-ont -N50 -r10000 ${ontAsmChangedName} ${ontRead} | samtools view -bS  - > ${prefix}.bam
+perl ${perlScript} ${prefix}.bam 0 > ${prefix}.bam.infor
+source activate wzjMap
+ontAsmChangedName=/public1/home/sc30797/wangzijian/update_Mo17/00_assembly/ONT_original/Mo17_ont_origin_asm.fa
+ontRead=/public1/home/sc30797/wangzijian/update_Mo17/nanopore_reads/nanopore_raw_read/20191230-UNL085-P1-PAE32963.fa
+prefix=${ontRead##*/}
+perlScript=/public1/home/sc30797/wangzijian/scripts/map/get_the_detailed_mapping_information_from_bwa_bam_file.pl
+minimap2 -t64 -ax map-ont -N50 -r10000 ${ontAsmChangedName} ${ontRead} | samtools view -bS  - > ${prefix}.bam
+perl ${perlScript} ${prefix}.bam 0 > ${prefix}.bam.infor
+source activate wzjMap
+ontAsmChangedName=/public1/home/sc30797/wangzijian/update_Mo17/00_assembly/ONT_original/Mo17_ont_origin_asm.fa
+ontRead=/public1/home/sc30797/wangzijian/update_Mo17/nanopore_reads/nanopore_raw_read/20191231-UNL085-P1-PAE32963.fa
+prefix=${ontRead##*/}
+perlScript=/public1/home/sc30797/wangzijian/scripts/map/get_the_detailed_mapping_information_from_bwa_bam_file.pl
+minimap2 -t64 -ax map-ont -N50 -r10000 ${ontAsmChangedName} ${ontRead} | samtools view -bS  - > ${prefix}.bam
+perl ${perlScript} ${prefix}.bam 0 > ${prefix}.bam.infor
+source activate wzjMap
+ontAsmChangedName=/public1/home/sc30797/wangzijian/update_Mo17/00_assembly/ONT_original/Mo17_ont_origin_asm.fa
+ontRead=/public1/home/sc30797/wangzijian/update_Mo17/nanopore_reads/nanopore_raw_read/20200117-UNL085-P5-PAE39466.fa
+prefix=${ontRead##*/}
+perlScript=/public1/home/sc30797/wangzijian/scripts/map/get_the_detailed_mapping_information_from_bwa_bam_file.pl
+minimap2 -t64 -ax map-ont -N50 -r10000 ${ontAsmChangedName} ${ontRead} | samtools view -bS  - > ${prefix}.bam
+perl ${perlScript} ${prefix}.bam 0 > ${prefix}.bam.infor
+source activate wzjMap
+ontAsmChangedName=/public1/home/sc30797/wangzijian/update_Mo17/00_assembly/ONT_original/Mo17_ont_origin_asm.fa
+ontRead=/public1/home/sc30797/wangzijian/update_Mo17/nanopore_reads/nanopore_raw_read/20200118-UNL085-P5-PAE39466.fa
+prefix=${ontRead##*/}
+perlScript=/public1/home/sc30797/wangzijian/scripts/map/get_the_detailed_mapping_information_from_bwa_bam_file.pl
+minimap2 -t64 -ax map-ont -N50 -r10000 ${ontAsmChangedName} ${ontRead} | samtools view -bS  - > ${prefix}.bam
+perl ${perlScript} ${prefix}.bam 0 > ${prefix}.bam.infor
+source activate wzjMap
+ontAsmChangedName=/public1/home/sc30797/wangzijian/update_Mo17/00_assembly/ONT_original/Mo17_ont_origin_asm.fa
+ontRead=/public1/home/sc30797/wangzijian/update_Mo17/nanopore_reads/nanopore_raw_read/20200312-UNL085-P1-PAE30600.fa
+prefix=${ontRead##*/}
+perlScript=/public1/home/sc30797/wangzijian/scripts/map/get_the_detailed_mapping_information_from_bwa_bam_file.pl
+minimap2 -t64 -ax map-ont -N50 -r10000 ${ontAsmChangedName} ${ontRead} | samtools view -bS  - > ${prefix}.bam
+perl ${perlScript} ${prefix}.bam 0 > ${prefix}.bam.infor
+source activate wzjMap
+ontAsmChangedName=/public1/home/sc30797/wangzijian/update_Mo17/00_assembly/ONT_original/Mo17_ont_origin_asm.fa
+ontRead=/public1/home/sc30797/wangzijian/update_Mo17/nanopore_reads/nanopore_raw_read/20200313-UNL085-P1-PAE30600.fa
+prefix=${ontRead##*/}
+perlScript=/public1/home/sc30797/wangzijian/scripts/map/get_the_detailed_mapping_information_from_bwa_bam_file.pl
+minimap2 -t64 -ax map-ont -N50 -r10000 ${ontAsmChangedName} ${ontRead} | samtools view -bS  - > ${prefix}.bam
+perl ${perlScript} ${prefix}.bam 0 > ${prefix}.bam.infor
+source activate wzjMap
+ontAsmChangedName=/public1/home/sc30797/wangzijian/update_Mo17/00_assembly/ONT_original/Mo17_ont_origin_asm.fa
+ontRead=/public1/home/sc30797/wangzijian/update_Mo17/nanopore_reads/nanopore_raw_read/20200328-UNL085-P1-PAE78052.fa
+prefix=${ontRead##*/}
+perlScript=/public1/home/sc30797/wangzijian/scripts/map/get_the_detailed_mapping_information_from_bwa_bam_file.pl
+minimap2 -t64 -ax map-ont -N50 -r10000 ${ontAsmChangedName} ${ontRead} | samtools view -bS  - > ${prefix}.bam
+perl ${perlScript} ${prefix}.bam 0 > ${prefix}.bam.infor
+source activate wzjMap
+ontAsmChangedName=/public1/home/sc30797/wangzijian/update_Mo17/00_assembly/ONT_original/Mo17_ont_origin_asm.fa
+ontRead=/public1/home/sc30797/wangzijian/update_Mo17/nanopore_reads/nanopore_raw_read/20200329-UNL085-P1-PAE78052.fa
+prefix=${ontRead##*/}
+perlScript=/public1/home/sc30797/wangzijian/scripts/map/get_the_detailed_mapping_information_from_bwa_bam_file.pl
+minimap2 -t64 -ax map-ont -N50 -r10000 ${ontAsmChangedName} ${ontRead} | samtools view -bS  - > ${prefix}.bam
+perl ${perlScript} ${prefix}.bam 0 > ${prefix}.bam.infor
+source activate wzjMap
+ontAsmChangedName=/public1/home/sc30797/wangzijian/update_Mo17/00_assembly/ONT_original/Mo17_ont_origin_asm.fa
+ontRead=/public1/home/sc30797/wangzijian/update_Mo17/nanopore_reads/nanopore_raw_read/20200330-UNL085-P1-PAE72324.fa
+prefix=${ontRead##*/}
+perlScript=/public1/home/sc30797/wangzijian/scripts/map/get_the_detailed_mapping_information_from_bwa_bam_file.pl
+minimap2 -t64 -ax map-ont -N50 -r10000 ${ontAsmChangedName} ${ontRead} | samtools view -bS  - > ${prefix}.bam
+perl ${perlScript} ${prefix}.bam 0 > ${prefix}.bam.infor
+source activate wzjMap
+ontAsmChangedName=/public1/home/sc30797/wangzijian/update_Mo17/00_assembly/ONT_original/Mo17_ont_origin_asm.fa
+ontRead=/public1/home/sc30797/wangzijian/update_Mo17/nanopore_reads/nanopore_raw_read/20200330-UNL085-P1-PAE73001.fa
+prefix=${ontRead##*/}
+perlScript=/public1/home/sc30797/wangzijian/scripts/map/get_the_detailed_mapping_information_from_bwa_bam_file.pl
+minimap2 -t64 -ax map-ont -N50 -r10000 ${ontAsmChangedName} ${ontRead} | samtools view -bS  - > ${prefix}.bam
+perl ${perlScript} ${prefix}.bam 0 > ${prefix}.bam.infor
+source activate wzjMap
+ontAsmChangedName=/public1/home/sc30797/wangzijian/update_Mo17/00_assembly/ONT_original/Mo17_ont_origin_asm.fa
+ontRead=/public1/home/sc30797/wangzijian/update_Mo17/nanopore_reads/nanopore_raw_read/20200330-UNL085-P1-PAE74959.fa
+prefix=${ontRead##*/}
+perlScript=/public1/home/sc30797/wangzijian/scripts/map/get_the_detailed_mapping_information_from_bwa_bam_file.pl
+minimap2 -t64 -ax map-ont -N50 -r10000 ${ontAsmChangedName} ${ontRead} | samtools view -bS  - > ${prefix}.bam
+perl ${perlScript} ${prefix}.bam 0 > ${prefix}.bam.infor
+source activate wzjMap
+ontAsmChangedName=/public1/home/sc30797/wangzijian/update_Mo17/00_assembly/ONT_original/Mo17_ont_origin_asm.fa
+ontRead=/public1/home/sc30797/wangzijian/update_Mo17/nanopore_reads/nanopore_raw_read/20200331-UNL085-P1-PAE73476.fa
+prefix=${ontRead##*/}
+perlScript=/public1/home/sc30797/wangzijian/scripts/map/get_the_detailed_mapping_information_from_bwa_bam_file.pl
+minimap2 -t64 -ax map-ont -N50 -r10000 ${ontAsmChangedName} ${ontRead} | samtools view -bS  - > ${prefix}.bam
+perl ${perlScript} ${prefix}.bam 0 > ${prefix}.bam.infor
+source activate wzjMap
+ontAsmChangedName=/public1/home/sc30797/wangzijian/update_Mo17/00_assembly/ONT_original/Mo17_ont_origin_asm.fa
+ontRead=/public1/home/sc30797/wangzijian/update_Mo17/nanopore_reads/nanopore_raw_read/20200331-UNL085-P1-PAE76301.fa
+prefix=${ontRead##*/}
+perlScript=/public1/home/sc30797/wangzijian/scripts/map/get_the_detailed_mapping_information_from_bwa_bam_file.pl
+minimap2 -t64 -ax map-ont -N50 -r10000 ${ontAsmChangedName} ${ontRead} | samtools view -bS  - > ${prefix}.bam
+perl ${perlScript} ${prefix}.bam 0 > ${prefix}.bam.infor
+source activate wzjMap
+ontAsmChangedName=/public1/home/sc30797/wangzijian/update_Mo17/00_assembly/ONT_original/Mo17_ont_origin_asm.fa
+ontRead=/public1/home/sc30797/wangzijian/update_Mo17/nanopore_reads/nanopore_raw_read/20200331-UNL085-P1-PAE76304.fa
+prefix=${ontRead##*/}
+perlScript=/public1/home/sc30797/wangzijian/scripts/map/get_the_detailed_mapping_information_from_bwa_bam_file.pl
+minimap2 -t64 -ax map-ont -N50 -r10000 ${ontAsmChangedName} ${ontRead} | samtools view -bS  - > ${prefix}.bam
+perl ${perlScript} ${prefix}.bam 0 > ${prefix}.bam.infor
+source activate wzjMap
+ontAsmChangedName=/public1/home/sc30797/wangzijian/update_Mo17/00_assembly/ONT_original/Mo17_ont_origin_asm.fa
+ontRead=/public1/home/sc30797/wangzijian/update_Mo17/nanopore_reads/nanopore_raw_read/20200331-UNL085-P1-PAE77443.fa
+prefix=${ontRead##*/}
+perlScript=/public1/home/sc30797/wangzijian/scripts/map/get_the_detailed_mapping_information_from_bwa_bam_file.pl
+minimap2 -t64 -ax map-ont -N50 -r10000 ${ontAsmChangedName} ${ontRead} | samtools view -bS  - > ${prefix}.bam
+perl ${perlScript} ${prefix}.bam 0 > ${prefix}.bam.infor
+source activate wzjMap
+ontAsmChangedName=/public1/home/sc30797/wangzijian/update_Mo17/00_assembly/ONT_original/Mo17_ont_origin_asm.fa
+ontRead=/public1/home/sc30797/wangzijian/update_Mo17/nanopore_reads/nanopore_raw_read/20200402-UNL085-P1-PAE66442.fa
+prefix=${ontRead##*/}
+perlScript=/public1/home/sc30797/wangzijian/scripts/map/get_the_detailed_mapping_information_from_bwa_bam_file.pl
+minimap2 -t64 -ax map-ont -N50 -r10000 ${ontAsmChangedName} ${ontRead} | samtools view -bS  - > ${prefix}.bam
+perl ${perlScript} ${prefix}.bam 0 > ${prefix}.bam.infor
+source activate wzjMap
+ontAsmChangedName=/public1/home/sc30797/wangzijian/update_Mo17/00_assembly/ONT_original/Mo17_ont_origin_asm.fa
+ontRead=/public1/home/sc30797/wangzijian/update_Mo17/nanopore_reads/nanopore_raw_read/20200403-UNL085-P1-PAE59748.fa
+prefix=${ontRead##*/}
+perlScript=/public1/home/sc30797/wangzijian/scripts/map/get_the_detailed_mapping_information_from_bwa_bam_file.pl
+minimap2 -t64 -ax map-ont -N50 -r10000 ${ontAsmChangedName} ${ontRead} | samtools view -bS  - > ${prefix}.bam
+perl ${perlScript} ${prefix}.bam 0 > ${prefix}.bam.infor
+source activate wzjMap
+ontAsmChangedName=/public1/home/sc30797/wangzijian/update_Mo17/00_assembly/ONT_original/Mo17_ont_origin_asm.fa
+ontRead=/public1/home/sc30797/wangzijian/update_Mo17/nanopore_reads/nanopore_raw_read/20200403-UNL085-P1-PAE63133.fa
+prefix=${ontRead##*/}
+perlScript=/public1/home/sc30797/wangzijian/scripts/map/get_the_detailed_mapping_information_from_bwa_bam_file.pl
+minimap2 -t64 -ax map-ont -N50 -r10000 ${ontAsmChangedName} ${ontRead} | samtools view -bS  - > ${prefix}.bam
+perl ${perlScript} ${prefix}.bam 0 > ${prefix}.bam.infor
+source activate wzjMap
+ontAsmChangedName=/public1/home/sc30797/wangzijian/update_Mo17/00_assembly/ONT_original/Mo17_ont_origin_asm.fa
+ontRead=/public1/home/sc30797/wangzijian/update_Mo17/nanopore_reads/nanopore_raw_read/20200403-UNL085-P1-PAE65508.fa
+prefix=${ontRead##*/}
+perlScript=/public1/home/sc30797/wangzijian/scripts/map/get_the_detailed_mapping_information_from_bwa_bam_file.pl
+minimap2 -t64 -ax map-ont -N50 -r10000 ${ontAsmChangedName} ${ontRead} | samtools view -bS  - > ${prefix}.bam
+perl ${perlScript} ${prefix}.bam 0 > ${prefix}.bam.infor
+source activate wzjMap
+ontAsmChangedName=/public1/home/sc30797/wangzijian/update_Mo17/00_assembly/ONT_original/Mo17_ont_origin_asm.fa
+ontRead=/public1/home/sc30797/wangzijian/update_Mo17/nanopore_reads/nanopore_raw_read/20200404-UNL085-P1-PAE58899.fa
+prefix=${ontRead##*/}
+perlScript=/public1/home/sc30797/wangzijian/scripts/map/get_the_detailed_mapping_information_from_bwa_bam_file.pl
+minimap2 -t64 -ax map-ont -N50 -r10000 ${ontAsmChangedName} ${ontRead} | samtools view -bS  - > ${prefix}.bam
+perl ${perlScript} ${prefix}.bam 0 > ${prefix}.bam.infor
+source activate wzjMap
+ontAsmChangedName=/public1/home/sc30797/wangzijian/update_Mo17/00_assembly/ONT_original/Mo17_ont_origin_asm.fa
+ontRead=/public1/home/sc30797/wangzijian/update_Mo17/nanopore_reads/nanopore_raw_read/20200404-UNL085-P1-PAE59636.fa
+prefix=${ontRead##*/}
+perlScript=/public1/home/sc30797/wangzijian/scripts/map/get_the_detailed_mapping_information_from_bwa_bam_file.pl
+minimap2 -t64 -ax map-ont -N50 -r10000 ${ontAsmChangedName} ${ontRead} | samtools view -bS  - > ${prefix}.bam
+perl ${perlScript} ${prefix}.bam 0 > ${prefix}.bam.infor
+source activate wzjMap
+ontAsmChangedName=/public1/home/sc30797/wangzijian/update_Mo17/00_assembly/ONT_original/Mo17_ont_origin_asm.fa
+ontRead=/public1/home/sc30797/wangzijian/update_Mo17/nanopore_reads/nanopore_raw_read/20200404-UNL085-P1-PAE62586.fa
+prefix=${ontRead##*/}
+perlScript=/public1/home/sc30797/wangzijian/scripts/map/get_the_detailed_mapping_information_from_bwa_bam_file.pl
+minimap2 -t64 -ax map-ont -N50 -r10000 ${ontAsmChangedName} ${ontRead} | samtools view -bS  - > ${prefix}.bam
+perl ${perlScript} ${prefix}.bam 0 > ${prefix}.bam.infor
+source activate wzjMap
+ontAsmChangedName=/public1/home/sc30797/wangzijian/update_Mo17/00_assembly/ONT_original/Mo17_ont_origin_asm.fa
+ontRead=/public1/home/sc30797/wangzijian/update_Mo17/nanopore_reads/nanopore_raw_read/20200404-UNL085-P1-PAE63133.fa
+prefix=${ontRead##*/}
+perlScript=/public1/home/sc30797/wangzijian/scripts/map/get_the_detailed_mapping_information_from_bwa_bam_file.pl
+minimap2 -t64 -ax map-ont -N50 -r10000 ${ontAsmChangedName} ${ontRead} | samtools view -bS  - > ${prefix}.bam
+perl ${perlScript} ${prefix}.bam 0 > ${prefix}.bam.infor
+source activate wzjMap
+ontAsmChangedName=/public1/home/sc30797/wangzijian/update_Mo17/00_assembly/ONT_original/Mo17_ont_origin_asm.fa
+ontRead=/public1/home/sc30797/wangzijian/update_Mo17/nanopore_reads/nanopore_raw_read/20200404-UNL085-P1-PAE64841.fa
+prefix=${ontRead##*/}
+perlScript=/public1/home/sc30797/wangzijian/scripts/map/get_the_detailed_mapping_information_from_bwa_bam_file.pl
+minimap2 -t64 -ax map-ont -N50 -r10000 ${ontAsmChangedName} ${ontRead} | samtools view -bS  - > ${prefix}.bam
+perl ${perlScript} ${prefix}.bam 0 > ${prefix}.bam.infor
+source activate wzjMap
+ontAsmChangedName=/public1/home/sc30797/wangzijian/update_Mo17/00_assembly/ONT_original/Mo17_ont_origin_asm.fa
+ontRead=/public1/home/sc30797/wangzijian/update_Mo17/nanopore_reads/nanopore_raw_read/20200405-UNL085-P1-PAE55943.fa
+prefix=${ontRead##*/}
+perlScript=/public1/home/sc30797/wangzijian/scripts/map/get_the_detailed_mapping_information_from_bwa_bam_file.pl
+minimap2 -t64 -ax map-ont -N50 -r10000 ${ontAsmChangedName} ${ontRead} | samtools view -bS  - > ${prefix}.bam
+perl ${perlScript} ${prefix}.bam 0 > ${prefix}.bam.infor
+source activate wzjMap
+ontAsmChangedName=/public1/home/sc30797/wangzijian/update_Mo17/00_assembly/ONT_original/Mo17_ont_origin_asm.fa
+ontRead=/public1/home/sc30797/wangzijian/update_Mo17/nanopore_reads/nanopore_raw_read/20200405-UNL085-P1-PAE58455.fa
+prefix=${ontRead##*/}
+perlScript=/public1/home/sc30797/wangzijian/scripts/map/get_the_detailed_mapping_information_from_bwa_bam_file.pl
+minimap2 -t64 -ax map-ont -N50 -r10000 ${ontAsmChangedName} ${ontRead} | samtools view -bS  - > ${prefix}.bam
+perl ${perlScript} ${prefix}.bam 0 > ${prefix}.bam.infor
+source activate wzjMap
+ontAsmChangedName=/public1/home/sc30797/wangzijian/update_Mo17/00_assembly/ONT_original/Mo17_ont_origin_asm.fa
+ontRead=/public1/home/sc30797/wangzijian/update_Mo17/nanopore_reads/nanopore_raw_read/20200405-UNL085-P1-PAE59610.fa
+prefix=${ontRead##*/}
+perlScript=/public1/home/sc30797/wangzijian/scripts/map/get_the_detailed_mapping_information_from_bwa_bam_file.pl
+minimap2 -t64 -ax map-ont -N50 -r10000 ${ontAsmChangedName} ${ontRead} | samtools view -bS  - > ${prefix}.bam
+perl ${perlScript} ${prefix}.bam 0 > ${prefix}.bam.infor
+source activate wzjMap
+ontAsmChangedName=/public1/home/sc30797/wangzijian/update_Mo17/00_assembly/ONT_original/Mo17_ont_origin_asm.fa
+ontRead=/public1/home/sc30797/wangzijian/update_Mo17/nanopore_reads/nanopore_raw_read/20200405-UNL085-P1-PAE64851.fa
+prefix=${ontRead##*/}
+perlScript=/public1/home/sc30797/wangzijian/scripts/map/get_the_detailed_mapping_information_from_bwa_bam_file.pl
+minimap2 -t64 -ax map-ont -N50 -r10000 ${ontAsmChangedName} ${ontRead} | samtools view -bS  - > ${prefix}.bam
+perl ${perlScript} ${prefix}.bam 0 > ${prefix}.bam.infor
+source activate wzjMap
+ontAsmChangedName=/public1/home/sc30797/wangzijian/update_Mo17/00_assembly/ONT_original/Mo17_ont_origin_asm.fa
+ontRead=/public1/home/sc30797/wangzijian/update_Mo17/nanopore_reads/nanopore_raw_read/20200405-UNL085-P1-PAE69208.fa
+prefix=${ontRead##*/}
+perlScript=/public1/home/sc30797/wangzijian/scripts/map/get_the_detailed_mapping_information_from_bwa_bam_file.pl
+minimap2 -t64 -ax map-ont -N50 -r10000 ${ontAsmChangedName} ${ontRead} | samtools view -bS  - > ${prefix}.bam
+perl ${perlScript} ${prefix}.bam 0 > ${prefix}.bam.infor
+source activate wzjMap
+ontAsmChangedName=/public1/home/sc30797/wangzijian/update_Mo17/00_assembly/ONT_original/Mo17_ont_origin_asm.fa
+ontRead=/public1/home/sc30797/wangzijian/update_Mo17/nanopore_reads/nanopore_raw_read/20200405-UNL085-P1-PAE69448.fa
+prefix=${ontRead##*/}
+perlScript=/public1/home/sc30797/wangzijian/scripts/map/get_the_detailed_mapping_information_from_bwa_bam_file.pl
+minimap2 -t64 -ax map-ont -N50 -r10000 ${ontAsmChangedName} ${ontRead} | samtools view -bS  - > ${prefix}.bam
+perl ${perlScript} ${prefix}.bam 0 > ${prefix}.bam.infor
+source activate wzjMap
+ontAsmChangedName=/public1/home/sc30797/wangzijian/update_Mo17/00_assembly/ONT_original/Mo17_ont_origin_asm.fa
+ontRead=/public1/home/sc30797/wangzijian/update_Mo17/nanopore_reads/nanopore_raw_read/20200406-UNL085-P1-PAE69448.fa
+prefix=${ontRead##*/}
+perlScript=/public1/home/sc30797/wangzijian/scripts/map/get_the_detailed_mapping_information_from_bwa_bam_file.pl
+minimap2 -t64 -ax map-ont -N50 -r10000 ${ontAsmChangedName} ${ontRead} | samtools view -bS  - > ${prefix}.bam
+perl ${perlScript} ${prefix}.bam 0 > ${prefix}.bam.infor
+source activate wzjMap
+ontAsmChangedName=/public1/home/sc30797/wangzijian/update_Mo17/00_assembly/ONT_original/Mo17_ont_origin_asm.fa
+ontRead=/public1/home/sc30797/wangzijian/update_Mo17/nanopore_reads/nanopore_raw_read/20200406-UNL085-P5-PAE70217.fa
+prefix=${ontRead##*/}
+perlScript=/public1/home/sc30797/wangzijian/scripts/map/get_the_detailed_mapping_information_from_bwa_bam_file.pl
+minimap2 -t64 -ax map-ont -N50 -r10000 ${ontAsmChangedName} ${ontRead} | samtools view -bS  - > ${prefix}.bam
+perl ${perlScript} ${prefix}.bam 0 > ${prefix}.bam.infor
+source activate wzjMap
+ontAsmChangedName=/public1/home/sc30797/wangzijian/update_Mo17/00_assembly/ONT_original/Mo17_ont_origin_asm.fa
+ontRead=/public1/home/sc30797/wangzijian/update_Mo17/nanopore_reads/nanopore_raw_read/20200407-UNL085-P5-PAE66590.fa
+prefix=${ontRead##*/}
+perlScript=/public1/home/sc30797/wangzijian/scripts/map/get_the_detailed_mapping_information_from_bwa_bam_file.pl
+minimap2 -t64 -ax map-ont -N50 -r10000 ${ontAsmChangedName} ${ontRead} | samtools view -bS  - > ${prefix}.bam
+perl ${perlScript} ${prefix}.bam 0 > ${prefix}.bam.infor
+source activate wzjMap
+ontAsmChangedName=/public1/home/sc30797/wangzijian/update_Mo17/00_assembly/ONT_original/Mo17_ont_origin_asm.fa
+ontRead=/public1/home/sc30797/wangzijian/update_Mo17/nanopore_reads/nanopore_raw_read/20200408-UNL085-P5-PAE69418.fa
+prefix=${ontRead##*/}
+perlScript=/public1/home/sc30797/wangzijian/scripts/map/get_the_detailed_mapping_information_from_bwa_bam_file.pl
+minimap2 -t64 -ax map-ont -N50 -r10000 ${ontAsmChangedName} ${ontRead} | samtools view -bS  - > ${prefix}.bam
+perl ${perlScript} ${prefix}.bam 0 > ${prefix}.bam.infor
+source activate wzjMap
+ontAsmChangedName=/public1/home/sc30797/wangzijian/update_Mo17/00_assembly/ONT_original/Mo17_ont_origin_asm.fa
+ontRead=/public1/home/sc30797/wangzijian/update_Mo17/nanopore_reads/nanopore_raw_read/20200409-UNL085-P5-PAE46763.fa
+prefix=${ontRead##*/}
+perlScript=/public1/home/sc30797/wangzijian/scripts/map/get_the_detailed_mapping_information_from_bwa_bam_file.pl
+minimap2 -t64 -ax map-ont -N50 -r10000 ${ontAsmChangedName} ${ontRead} | samtools view -bS  - > ${prefix}.bam
+perl ${perlScript} ${prefix}.bam 0 > ${prefix}.bam.infor
