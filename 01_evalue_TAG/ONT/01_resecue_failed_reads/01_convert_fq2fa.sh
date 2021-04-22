@@ -1,0 +1,39 @@
+#!/bin/bash
+source activate wzjMap
+for x in 20200409-UNL085-P5-PAE46763/PAE46763/fastq_fail/*.fastq;do seqkit fq2fa ${x} >> 20200409-UNL085-P5-PAE46763.fail.fa;done &
+for x in 20200408-UNL085-P5-PAE69418/PAE69418/fastq_fail/*.fastq;do seqkit fq2fa ${x} >> 20200408-UNL085-P5-PAE69418.fail.fa;done &
+for x in 20200407-UNL085-P5-PAE66590/PAE66590/fastq_fail/*.fastq;do seqkit fq2fa ${x} >> 20200407-UNL085-P5-PAE66590.fail.fa;done &
+for x in 20200406-UNL085-P5-PAE70217/PAE70217/fastq_fail/*.fastq;do seqkit fq2fa ${x} >> 20200406-UNL085-P5-PAE70217.fail.fa;done &
+for x in 20200406-UNL085-P1-PAE69448/PAE69448/fastq_fail/*.fastq;do seqkit fq2fa ${x} >> 20200406-UNL085-P1-PAE69448.fail.fa;done &
+for x in 20200405-UNL085-P1-PAE69448/PAE69448/fastq_fail/*.fastq;do seqkit fq2fa ${x} >> 20200405-UNL085-P1-PAE69448.fail.fa;done &
+for x in 20200405-UNL085-P1-PAE69208/PAE69208/fastq_fail/*.fastq;do seqkit fq2fa ${x} >> 20200405-UNL085-P1-PAE69208.fail.fa;done &
+for x in 20200405-UNL085-P1-PAE64851/PAE64851/fastq_fail/*.fastq;do seqkit fq2fa ${x} >> 20200405-UNL085-P1-PAE64851.fail.fa;done &
+for x in 20200405-UNL085-P1-PAE59610/PAE59610/fastq_fail/*.fastq;do seqkit fq2fa ${x} >> 20200405-UNL085-P1-PAE59610.fail.fa;done &
+for x in 20200405-UNL085-P1-PAE58455/PAE58455/fastq_fail/*.fastq;do seqkit fq2fa ${x} >> 20200405-UNL085-P1-PAE58455.fail.fa;done &
+for x in 20200405-UNL085-P1-PAE55943/PAE55943/fastq_fail/*.fastq;do seqkit fq2fa ${x} >> 20200405-UNL085-P1-PAE55943.fail.fa;done &
+for x in 20200404-UNL085-P1-PAE64841/PAE64841/fastq_fail/*.fastq;do seqkit fq2fa ${x} >> 20200404-UNL085-P1-PAE64841.fail.fa;done &
+for x in 20200404-UNL085-P1-PAE63133/PAE63133/fastq_fail/*.fastq;do seqkit fq2fa ${x} >> 20200404-UNL085-P1-PAE63133.fail.fa;done &
+for x in 20200404-UNL085-P1-PAE62586/PAE62586/fastq_fail/*.fastq;do seqkit fq2fa ${x} >> 20200404-UNL085-P1-PAE62586.fail.fa;done &
+for x in 20200404-UNL085-P1-PAE59636/PAE59636/fastq_fail/*.fastq;do seqkit fq2fa ${x} >> 20200404-UNL085-P1-PAE59636.fail.fa;done &
+for x in 20200404-UNL085-P1-PAE58899/PAE58899/fastq_fail/*.fastq;do seqkit fq2fa ${x} >> 20200404-UNL085-P1-PAE58899.fail.fa;done &
+for x in 20200403-UNL085-P1-PAE65508/PAE65508/fastq_fail/*.fastq;do seqkit fq2fa ${x} >> 20200403-UNL085-P1-PAE65508.fail.fa;done &
+for x in 20200403-UNL085-P1-PAE63133/PAE63133/fastq_fail/*.fastq;do seqkit fq2fa ${x} >> 20200403-UNL085-P1-PAE63133.fail.fa;done &
+for x in 20200403-UNL085-P1-PAE59748/PAE59748/fastq_fail/*.fastq;do seqkit fq2fa ${x} >> 20200403-UNL085-P1-PAE59748.fail.fa;done &
+for x in 20200402-UNL085-P1-PAE66442/PAE66442/fastq_fail/*.fastq;do seqkit fq2fa ${x} >> 20200402-UNL085-P1-PAE66442.fail.fa;done &
+for x in 20200331-UNL085-P1-PAE77443/PAE77443/fastq_fail/*.fastq;do seqkit fq2fa ${x} >> 20200331-UNL085-P1-PAE77443.fail.fa;done &
+for x in 20200331-UNL085-P1-PAE76304/PAE76304/fastq_fail/*.fastq;do seqkit fq2fa ${x} >> 20200331-UNL085-P1-PAE76304.fail.fa;done &
+for x in 20200331-UNL085-P1-PAE76301/PAE76301/fastq_fail/*.fastq;do seqkit fq2fa ${x} >> 20200331-UNL085-P1-PAE76301.fail.fa;done &
+for x in 20200331-UNL085-P1-PAE73476/PAE73476/fastq_fail/*.fastq;do seqkit fq2fa ${x} >> 20200331-UNL085-P1-PAE73476.fail.fa;done &
+for x in 20200330-UNL085-P1-PAE74959/PAE74959/fastq_fail/*.fastq;do seqkit fq2fa ${x} >> 20200330-UNL085-P1-PAE74959.fail.fa;done &
+for x in 20200330-UNL085-P1-PAE73001/PAE73001/fastq_fail/*.fastq;do seqkit fq2fa ${x} >> 20200330-UNL085-P1-PAE73001.fail.fa;done &
+for x in 20200330-UNL085-P1-PAE72324/PAE72324/fastq_fail/*.fastq;do seqkit fq2fa ${x} >> 20200330-UNL085-P1-PAE72324.fail.fa;done &
+for x in 20200313-UNL085-P1-PAE30600/PAE30600/fastq_fail/*.fastq;do seqkit fq2fa ${x} >> 20200313-UNL085-P1-PAE30600.fail.fa;done &
+for x in 20200312-UNL085-P1-PAE30600/PAE30600/fastq_fail/*.fastq;do seqkit fq2fa ${x} >> 20200312-UNL085-P1-PAE30600.fail.fa;done &
+for x in 20200329-UNL085-P1-PAE78052-hac/PAE78052/*.fastq;do seqkit fq2fa ${x} >> 20200329-UNL085-P1-PAE78052.fa;done &
+for x in 20200328-UNL085-P1-PAE78052-hac/PAE78052/*.fastq;do seqkit fq2fa ${x} >> 20200328-UNL085-P1-PAE78052.fa;done &
+for x in 20200118-UNL085-P5-PAE39466-hac/PAE39466/*.fastq;do seqkit fq2fa ${x} >> 20200118-UNL085-P5-PAE39466.fa;done &
+for x in 20200117-UNL085-P5-PAE39466-hac/PAE39466/*.fastq;do seqkit fq2fa ${x} >> 20200117-UNL085-P5-PAE39466.fa;done &
+for x in 20191231-UNL085-P1-PAE32963-hac/PAE32963/*.fastq;do seqkit fq2fa ${x} >> 20191231-UNL085-P1-PAE32963.fa;done &
+for x in 20191230-UNL085-P1-PAE32963-hac/PAE32963/*.fastq;do seqkit fq2fa ${x} >> 20191230-UNL085-P1-PAE32963.fa;done &
+for x in 20191219-UNL085-P5-PAE34153-hac/PAE34153/fastq_from_fast5_fail/*.fastq;do seqkit fq2fa ${x} >> 20191219-UNL085-P5-PAE34153.fail.fa;done &
+wait
