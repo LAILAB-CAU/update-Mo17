@@ -1,0 +1,10 @@
+/public1/home/sc30797/bxin/LIKE/Mo17/stringdecomposer/sd/run_decomposer.py -t 64  chr10.fa all_satellite.fa -o all_satellite.final_decomposition.chr10.tsv
+/public1/home/sc30797/bxin/LIKE/Mo17/stringdecomposer/sd/run_decomposer.py -t 64  chr9.fa  all_satellite.fa -o all_satellite.final_decomposition.chr9.tsv
+/public1/home/sc30797/bxin/LIKE/Mo17/stringdecomposer/sd/run_decomposer.py -t 64  chr8.fa  all_satellite.fa -o all_satellite.final_decomposition.chr8.tsv
+/public1/home/sc30797/bxin/LIKE/Mo17/stringdecomposer/sd/run_decomposer.py -t 64  chr7.fa  all_satellite.fa -o all_satellite.final_decomposition.chr7.tsv
+/public1/home/sc30797/bxin/LIKE/Mo17/stringdecomposer/sd/run_decomposer.py -t 64  chr6.fa  all_satellite.fa -o all_satellite.final_decomposition.chr6.tsv
+/public1/home/sc30797/bxin/LIKE/Mo17/stringdecomposer/sd/run_decomposer.py -t 64  chr5.fa  all_satellite.fa -o all_satellite.final_decomposition.chr5.tsv
+/public1/home/sc30797/bxin/LIKE/Mo17/stringdecomposer/sd/run_decomposer.py -t 64  chr4.fa  all_satellite.fa -o all_satellite.final_decomposition.chr4.tsv
+/public1/home/sc30797/bxin/LIKE/Mo17/stringdecomposer/sd/run_decomposer.py -t 64  chr3.fa  all_satellite.fa -o all_satellite.final_decomposition.chr3.tsv
+/public1/home/sc30797/bxin/LIKE/Mo17/stringdecomposer/sd/run_decomposer.py -t 64  chr2.fa  all_satellite.fa -o all_satellite.final_decomposition.chr2.tsv
+/public1/home/sc30797/bxin/LIKE/Mo17/stringdecomposer/sd/run_decomposer.py -t 64  chr1.fa  all_satellite.fa -o all_satellite.final_decomposition.chr1.tsv

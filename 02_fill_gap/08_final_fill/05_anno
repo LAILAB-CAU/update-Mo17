@@ -1,0 +1,70 @@
+source activate LTR_retrieve
+export PATH=/public1/home/sc30797/kevin/software/genometools-install/bin/:$PATH
+export PATH=/public1/home/sc30797/kevin/software/LTR_Finder-master/source/:$PATH
+export PATH=/public1/home/sc30797/kevin/software/blast+/bin/:$PATH
+export PATH=/public1/home/sc30797/kevin/software/hmmer-3.3.2/install/bin/:$PATH
+export PATH=/public1/home/sc30797/kevin/software/LTR_retriever-master/:$PATH
+RepeatMasker  -pa 64 -no_is  -lib /public1/home/sc30797/wangzijian/update_Mo17/00_assembly/hifiasm2/01_anchor/final_repeat.lib.fasta -gff  -dir chr10 chr10.fa
+source activate LTR_retrieve
+export PATH=/public1/home/sc30797/kevin/software/genometools-install/bin/:$PATH
+export PATH=/public1/home/sc30797/kevin/software/LTR_Finder-master/source/:$PATH
+export PATH=/public1/home/sc30797/kevin/software/blast+/bin/:$PATH
+export PATH=/public1/home/sc30797/kevin/software/hmmer-3.3.2/install/bin/:$PATH
+export PATH=/public1/home/sc30797/kevin/software/LTR_retriever-master/:$PATH
+RepeatMasker  -pa 64 -no_is  -lib /public1/home/sc30797/wangzijian/update_Mo17/00_assembly/hifiasm2/01_anchor/final_repeat.lib.fasta -gff  -dir chr9 chr9.fa
+source activate LTR_retrieve
+export PATH=/public1/home/sc30797/kevin/software/genometools-install/bin/:$PATH
+export PATH=/public1/home/sc30797/kevin/software/LTR_Finder-master/source/:$PATH
+export PATH=/public1/home/sc30797/kevin/software/blast+/bin/:$PATH
+export PATH=/public1/home/sc30797/kevin/software/hmmer-3.3.2/install/bin/:$PATH
+export PATH=/public1/home/sc30797/kevin/software/LTR_retriever-master/:$PATH
+RepeatMasker  -pa 64 -no_is  -lib /public1/home/sc30797/wangzijian/update_Mo17/00_assembly/hifiasm2/01_anchor/final_repeat.lib.fasta -gff  -dir chr8 chr8.fa
+source activate LTR_retrieve
+export PATH=/public1/home/sc30797/kevin/software/genometools-install/bin/:$PATH
+export PATH=/public1/home/sc30797/kevin/software/LTR_Finder-master/source/:$PATH
+export PATH=/public1/home/sc30797/kevin/software/blast+/bin/:$PATH
+export PATH=/public1/home/sc30797/kevin/software/hmmer-3.3.2/install/bin/:$PATH
+export PATH=/public1/home/sc30797/kevin/software/LTR_retriever-master/:$PATH
+RepeatMasker  -pa 64 -no_is  -lib /public1/home/sc30797/wangzijian/update_Mo17/00_assembly/hifiasm2/01_anchor/final_repeat.lib.fasta -gff  -dir chr7 chr7.fa
+source activate LTR_retrieve
+export PATH=/public1/home/sc30797/kevin/software/genometools-install/bin/:$PATH
+export PATH=/public1/home/sc30797/kevin/software/LTR_Finder-master/source/:$PATH
+export PATH=/public1/home/sc30797/kevin/software/blast+/bin/:$PATH
+export PATH=/public1/home/sc30797/kevin/software/hmmer-3.3.2/install/bin/:$PATH
+export PATH=/public1/home/sc30797/kevin/software/LTR_retriever-master/:$PATH
+RepeatMasker  -pa 64 -no_is  -lib /public1/home/sc30797/wangzijian/update_Mo17/00_assembly/hifiasm2/01_anchor/final_repeat.lib.fasta -gff  -dir chr6 chr6.fa
+source activate LTR_retrieve
+export PATH=/public1/home/sc30797/kevin/software/genometools-install/bin/:$PATH
+export PATH=/public1/home/sc30797/kevin/software/LTR_Finder-master/source/:$PATH
+export PATH=/public1/home/sc30797/kevin/software/blast+/bin/:$PATH
+export PATH=/public1/home/sc30797/kevin/software/hmmer-3.3.2/install/bin/:$PATH
+export PATH=/public1/home/sc30797/kevin/software/LTR_retriever-master/:$PATH
+RepeatMasker  -pa 64 -no_is  -lib /public1/home/sc30797/wangzijian/update_Mo17/00_assembly/hifiasm2/01_anchor/final_repeat.lib.fasta -gff  -dir chr5 chr5.fa
+source activate LTR_retrieve
+export PATH=/public1/home/sc30797/kevin/software/genometools-install/bin/:$PATH
+export PATH=/public1/home/sc30797/kevin/software/LTR_Finder-master/source/:$PATH
+export PATH=/public1/home/sc30797/kevin/software/blast+/bin/:$PATH
+export PATH=/public1/home/sc30797/kevin/software/hmmer-3.3.2/install/bin/:$PATH
+export PATH=/public1/home/sc30797/kevin/software/LTR_retriever-master/:$PATH
+RepeatMasker  -pa 64 -no_is  -lib /public1/home/sc30797/wangzijian/update_Mo17/00_assembly/hifiasm2/01_anchor/final_repeat.lib.fasta -gff  -dir chr4 chr4.fa
+source activate LTR_retrieve
+export PATH=/public1/home/sc30797/kevin/software/genometools-install/bin/:$PATH
+export PATH=/public1/home/sc30797/kevin/software/LTR_Finder-master/source/:$PATH
+export PATH=/public1/home/sc30797/kevin/software/blast+/bin/:$PATH
+export PATH=/public1/home/sc30797/kevin/software/hmmer-3.3.2/install/bin/:$PATH
+export PATH=/public1/home/sc30797/kevin/software/LTR_retriever-master/:$PATH
+RepeatMasker  -pa 64 -no_is  -lib /public1/home/sc30797/wangzijian/update_Mo17/00_assembly/hifiasm2/01_anchor/final_repeat.lib.fasta -gff  -dir chr3 chr3.fa
+source activate LTR_retrieve
+export PATH=/public1/home/sc30797/kevin/software/genometools-install/bin/:$PATH
+export PATH=/public1/home/sc30797/kevin/software/LTR_Finder-master/source/:$PATH
+export PATH=/public1/home/sc30797/kevin/software/blast+/bin/:$PATH
+export PATH=/public1/home/sc30797/kevin/software/hmmer-3.3.2/install/bin/:$PATH
+export PATH=/public1/home/sc30797/kevin/software/LTR_retriever-master/:$PATH
+RepeatMasker  -pa 64 -no_is  -lib /public1/home/sc30797/wangzijian/update_Mo17/00_assembly/hifiasm2/01_anchor/final_repeat.lib.fasta -gff  -dir chr2 chr2.fa
+source activate LTR_retrieve
+export PATH=/public1/home/sc30797/kevin/software/genometools-install/bin/:$PATH
+export PATH=/public1/home/sc30797/kevin/software/LTR_Finder-master/source/:$PATH
+export PATH=/public1/home/sc30797/kevin/software/blast+/bin/:$PATH
+export PATH=/public1/home/sc30797/kevin/software/hmmer-3.3.2/install/bin/:$PATH
+export PATH=/public1/home/sc30797/kevin/software/LTR_retriever-master/:$PATH
+RepeatMasker  -pa 64 -no_is  -lib /public1/home/sc30797/wangzijian/update_Mo17/00_assembly/hifiasm2/01_anchor/final_repeat.lib.fasta -gff  -dir chr1 chr1.fa
