@@ -1,0 +1,26 @@
+#!/bin/bash
+mv Coverage00.bed.pdf Coverage01.chr1_254808228_255508228.pdf
+mv Coverage01.bed.pdf Coverage02.chr2_175959220_176559220.pdf
+mv Coverage02.bed.pdf Coverage03.chr2_211936920_212735915.pdf
+mv Coverage03.bed.pdf Coverage04.chr2_230436229_231511213.pdf
+mv Coverage04.bed.pdf Coverage05.chr4_5600584_6300584.pdf
+mv Coverage05.bed.pdf Coverage06.chr4_16500584_18494236.pdf
+mv Coverage06.bed.pdf Coverage07.chr4_43054255_43711082.pdf
+mv Coverage07.bed.pdf Coverage08.chr4_108611204_109311204.pdf
+mv Coverage08.bed.pdf Coverage09.chr4_195811215_196423836.pdf
+mv Coverage09.bed.pdf Coverage10.chr4_208004069_208804069.pdf
+mv Coverage10.bed.pdf Coverage11.chr5_204255502_204851871.pdf
+mv Coverage11.bed.pdf Coverage12.chr7_54782225_55759688.pdf
+mv Coverage12.bed.pdf Coverage13.chr9_60504454_61210553.pdf
+mv Gap00.bed.pdf Gap01.chr1_224800765_226987081.pdf
+mv Gap01.bed.pdf Gap02.chr1_248105955_250908228.pdf
+mv Gap02.bed.pdf Gap03.chr2_1_1976568.pdf
+mv Gap03.bed.pdf Gap04.chr2_49984325_50759030.pdf
+mv Gap04.bed.pdf Gap05.chr2_197143151_200436890.pdf
+mv Gap05.bed.pdf Gap06.chr6_17291021_41709409.pdf
+mv Gap06.bed.pdf Gap07.chr6_63695408_64269207.pdf
+mv Gap07.bed.pdf Gap08.chr8_52401191_55116411.pdf
+mv Gap08.bed.pdf Gap09.chr8_150616427_201791722.pdf
+mv Gap09.bed.pdf Gap10.chr9_162697724_163361613.pdf
+mv Inversion00.bed.pdf Inversion01.chr4_98611204_99611204.pdf
+mv Inversion01.bed.pdf Inversion02.chr4_94911204_103911204.pdf
